@@ -9,6 +9,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
     <title>Black Cats Rules</title>
 <link rel="stylesheet" href="{{ asset("video22/css/main.css")}}">
 </head>
@@ -21,18 +23,21 @@
         <aside class="lateral">
         <img src="{{ asset("video22/img/black-cat.jpg")}}" alt="Black Cats Rules!">
 
+            <form action="#" method="GET">
+                @csrf
             <input type="text" id="claim" maxlength="40" placeholder="Introduce tu titulo">
-
+            <input type="submit" class="btn btn-primary" value="Enviar">
+            </form>
             <!-- Social -->
-            <a href="#" data-rrss="correoe">
+            <a href="http://google.es" target="_blank" data-rrss="correoe">
                 <img src="{{ asset("video22/img/mail.png")}}" alt="Correo-e">
                 <span>Correo-e</span>
             </a>
-            <a href="#" data-rrss="snapchat">
+            <a href="http://google.es" target="_blank" data-rrss="snapchat">
                 <img src="{{ asset("video22/img/snapchat.png")}}" alt="Snapchat">
                 <span>Snapchat</span>
             </a>
-            <a href="#" data-rrss="twitter">
+            <a href="http://google.es" target="_blank" data-rrss="twitter">
                 <img src="{{ asset("video22/img/twitter.png")}}" alt="Twitter">
                 <span>Twitter</span>
             </a>
