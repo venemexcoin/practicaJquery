@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/jquery', function () {
-    return view('Jquery.video27.index');
+    return view('Jquery.video30.index');
 });
