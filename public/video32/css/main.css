@@ -21,7 +21,7 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: centeflex-start;
+    align-items: flex-start;
 }
 
 /* Contenedor principal */
@@ -89,6 +89,24 @@ main>* {
     padding: 0;
 }
 
+.contenido form {
+    margin: 10px 0;
+}
+
+.contenido input,
+.contenido textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.contenido input[type="submit"] {
+    background-color: black;
+    color: white;
+}
+
 .contenido ul li {
     background-color: red;
     flex-basis: 30%;
@@ -138,18 +156,8 @@ main>* {
     border: 1px solid red;
 }
 
-/* .contenido p {
-    display: none;
-} */
-
-.claim {
-    width: 100%;
-    padding: 10px;
-}
-
 .dopodcast {
-
-    color: green !important;
+    color: pink !important;
     font-size: 30px !important;
     margin: 20px !important;
 }

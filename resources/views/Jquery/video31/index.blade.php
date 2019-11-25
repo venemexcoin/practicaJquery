@@ -12,8 +12,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <title>Black Cats Rules</title>
-<link rel="stylesheet" href="{{ asset("video30/css/main.css")}}">
-<link rel="stylesheet" href="{{ asset("video30/css/animate.css")}}">
+<link rel="stylesheet" href="{{ asset("video31/css/main.css")}}">
+<link rel="stylesheet" href="{{ asset("video31/css/animate.css")}}">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 
         <!-- Sidebar -->
         <aside class="lateral">
-        <img src="{{ asset("video30/img/black-cat.jpg")}}" alt="Black Cats Rules!">
+        <img src="{{ asset("video31/img/black-cat.jpg")}}" alt="Black Cats Rules!">
 
 
 
@@ -47,7 +47,7 @@
     </main>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <script src="{{ asset('js/app.js')}}"></script>
-    <script src="{{ asset("video30/js/main.js")}}"></script>
+    <script src="{{ asset("video31/js/main.js")}}"></script>
 </body>
 
 </html>

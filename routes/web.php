@@ -16,5 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/jquery', function () {
-    return view('Jquery.video30.index');
+    return view('Jquery.video32.index');
+});
+Route::get('/social', function () {
+    return view('Jquery.video32.social');
 });
