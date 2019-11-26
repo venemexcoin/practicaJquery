@@ -16,8 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('/jquery', function () {
-    return view('Jquery.video32.index');
+    return view('Jquery.video40.index');
 });
 Route::get('/social', function () {
-    return view('Jquery.video32.social');
+    return view('Jquery.video38.social');
 });
+
+Route::resource('gatos', 'GatosController');

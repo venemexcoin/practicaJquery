@@ -12,8 +12,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <title>Black Cats Rules</title>
-<link rel="stylesheet" href="{{ asset("video32/css/main.css")}}">
-<link rel="stylesheet" href="{{ asset("video32/css/animate.css")}}">
+<link rel="stylesheet" href="{{ asset("video34/css/main.css")}}">
+<link rel="stylesheet" href="{{ asset("video34/css/animate.css")}}">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 
         <!-- Sidebar -->
         <aside class="lateral">
-        <img src="{{ asset("video32/img/black-cat.jpg")}}" alt="Black Cats Rules!">
+        <img src="{{ asset("video34/img/black-cat.jpg")}}" alt="Black Cats Rules!">
 
 
 
@@ -44,16 +44,13 @@
             necessitatibus, hic corrupti delectus. Excepturi quis incidunt ratione officia hic amet, natus tempora
             nesciunt ipsum, atque.</p>
 
-        <!-- Libro de visitas -->
-        <form>
-            @csrf
-            <h3>Deja constancia de tu amor por los gatos negros</h3>
-            <input type="text" id="nombre" placeholder="Tu nombre" required>
-            <textarea id="mensaje" cols="30" rows="4" placeholder="Tu mensaje" required></textarea>
-            <input type="submit" value="Enviar mensaje">
-            <ol>
 
-            </ol>
+            <!-- proteccion anti inyeccion htmlspecialchars y htmlspecialchars_decode para decodificar-->
+         <!-- Newsletter opt-in -->
+         <form method="POST" action="http://venemexcoin.com/VMX/pruebaAjax/receptor_seguro.php">   <!--receptor_seguro.php-->
+            <h3>No te pierdas ninguna noticia sobre los gatos negros</h3>
+            <input autocomplete="off" type="text" id="correoe" name="correoe" placeholder="Tu correo-e" required>
+            <input type="submit" value="Suscribirme a la newsletter">
         </form>
 
         <!-- Thumbnails -->
@@ -64,9 +61,11 @@
         </ul>
     </section>
     </main>
+    
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <script src="{{ asset('js/app.js')}}"></script>
     <script src="{{ asset("video32/js/main.js")}}"></script>
+
 </body>
 
 </html>

@@ -10,7 +10,7 @@ $(document).ready(function () {
         evt.preventDefault();
 
         ///Realizamos la petición
-        $.ajax('http://venemexcoin.com/VMX/pruebaAjax/ajax.php', { //ajax-no-key.php es para el uso de apkey (CORS)
+        $.ajax('http://venemexcoin.com/VMX/pruebaAjax/receptor.php', { //ajax-no-key.php es para el uso de apkey (CORS)
             type: 'POST',
             dataType: 'json',
             data: {
